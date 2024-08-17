@@ -39,7 +39,7 @@ public class link {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@name='j_username']")).sendKeys("admin");
 		Thread.sleep(1000);
-		driver.findElement(By.xpath("//input[@name='j_password']")).sendKeys("admin123");
+		driver.findElement(By.xpath("//input[@name='j_password']")).sendKeys("MSR@chola2022");
 		Thread.sleep(1000);
 
 		driver.findElement(By.xpath("//input[@name='button']")).click();

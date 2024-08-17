@@ -27,7 +27,7 @@ public class PropertiesFile {
 		
 		try {
 												  // 2. create a obj class of input stream.
-			InputStream input = new FileInputStream("/home/msr/git/Introduction_31_March_2024/Introduction_31_March_2024/src/config/config.properties");
+			InputStream input = new FileInputStream("/home/msr/git/Zenith-July-2021/Introduction_31_March_2024/src/config/config.properties");
 												  // 3. Load properties file
 			// this statement will make our configuration or the properties file avilable to our java program
 			prop.load(input);
@@ -51,7 +51,7 @@ public class PropertiesFile {
 		
 		try {
 		
-			OutputStream output = new FileOutputStream("/home/msr/git/Introduction_31_March_2024/Introduction_31_March_2024/src/config/config.properties");
+			OutputStream output = new FileOutputStream("/home/msr/git/Zenith-July-2021/Introduction_31_March_2024/src/config/config.properties");
 		// 3. Set values
 //			prop.setProperty("browser", "Chrome");
 			

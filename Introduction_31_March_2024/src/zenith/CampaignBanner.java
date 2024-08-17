@@ -11,9 +11,9 @@ public class CampaignBanner {
 		WebDriver driver;
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("http://111.93.227.212/zmp/login.do");
+//		driver.get("http://111.93.227.212/zmp/login.do");
 //		driver.get("http://172.30.3.13/zmp/login.do");
-//		driver.get("http://192.168.82.1/zmp/login.do");
+		driver.get("http://192.168.82.1/zmp/login.do");
 		
 		
 		Thread.sleep(2000);

@@ -46,7 +46,7 @@ public class Create_multitask_devops_17_June_2024 {
 		
 		// Calender
 		Calendar cal = Calendar.getInstance();
-		cal.add(Calendar.DATE, -1); // Adds 2 days to the current date. After this line, cal represents the date 2
+		cal.add(Calendar.DATE, 0); // Adds 2 days to the current date. After this line, cal represents the date 2
 									// days from the current date.
 		cal.add(Calendar.MONTH, 0);
 		cal.add(Calendar.YEAR, 0);
